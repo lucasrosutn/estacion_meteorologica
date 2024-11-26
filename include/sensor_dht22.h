@@ -1,6 +1,8 @@
 #ifndef SENSOR_DHT22_H
 #define SENSOR_DHT22_H
+#include <DHT.h>
 
+extern DHT dht; // Declaración del objeto para uso global
 // Función para inicializar el sensor DHT22
 void setup_sensor_dht22();
 

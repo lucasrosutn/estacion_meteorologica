@@ -3,7 +3,7 @@
 #include "app.h"
 
 void setup() {
-    setupApp(); // Inicialización
+    setup_app(); // Inicialización
 }
 
 void loop() {

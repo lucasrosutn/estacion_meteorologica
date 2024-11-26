@@ -2,6 +2,6 @@
 #define setup_h
 
 // Función para inicializar todos los componentes
-void setupApp();
+void setup_app();
 
 #endif // setup_h

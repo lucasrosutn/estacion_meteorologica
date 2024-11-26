@@ -1,15 +1,13 @@
 #include "setup.h"
-#include "sensor_dht22.h" // Importa las funciones del DHT22
 #include <Arduino.h>
+#include "sensor_dht22.h"
 
-// Aquí se inicializan todos los componentes
-void setupApp() {
-    Serial.begin(115200); // Inicialización del puerto serie para depuración
-    Serial.println("I N I C I A L I Z A N D O    S I S T E M A  - Aguarde un instante por favor.");
+void setup_app() {
+    Serial.begin(115200);
+    delay(1000);
+
     
-    // Más inicializaciones se agregarán aquí más adelante
-    // Por ejemplo, sensores, Wi-Fi, etc.
-
-
-
+    // Llama a la función que inicializa el sensor desde sensor_dht22.cpp
+    setup_sensor_dht22();
+    Serial.println("Sensor DHT22 inicializado correctamente");
 }
