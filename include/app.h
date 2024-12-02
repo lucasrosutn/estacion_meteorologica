@@ -1,6 +1,7 @@
 #ifndef APP_H
 #define APP_H
 
-void loop_app();
+void setup_app();  // Configuración inicial
+void loop_app();   // Ciclo principal
 
-#endif // APP_H
+#endif

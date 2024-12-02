@@ -1,7 +1,6 @@
-#ifndef setup_h
-#define setup_h
+#ifndef SETUP_H
+#define SETUP_H
 
-// Función para inicializar todos los componentes
-void setup_app();
+void setup_app();  // Inicializa sensores y comunicación serial
 
-#endif // setup_h
+#endif

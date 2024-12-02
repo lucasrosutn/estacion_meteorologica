@@ -1,11 +1,10 @@
 #include <Arduino.h>
-#include "setup.h"
 #include "app.h"
 
 void setup() {
-    setup_app(); // Inicialización
+    setup_app();  // Configuración inicial de la aplicación
 }
 
 void loop() {
-    loop_app(); // Ejecuta la lógica principal
+    loop_app();  // Loop principal de la aplicación
 }
